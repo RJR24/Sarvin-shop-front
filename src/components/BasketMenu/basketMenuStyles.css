@@ -1,0 +1,29 @@
+.itemsList {
+  box-shadow: -2px 2px 15px -1px rgba(113, 113, 113, 0.12);
+  border-radius: 0.5rem;
+}
+.cartItems {
+  width: 100%;
+}
+
+.product-img {
+  width: 45%;
+}
+.product-details {
+  width: 55%;
+}
+.plus-minus {
+  border-bottom: 1px solid #9e9e9e;
+}
+
+.model-name {
+  font-weight: 500;
+}
+.proceed-to-checkout {
+  position: sticky;
+}
+/* .basket-main-container {
+  max-width: 34.5rem;
+  max-height: 43.5rem;
+  overflow-y: scroll;
+} */

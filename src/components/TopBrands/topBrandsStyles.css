@@ -1,0 +1,14 @@
+.brandsTitle {
+  margin-top: 48px;
+  color: var(--Black, #0c0c0c);
+  width: 100%;
+  border-bottom: 2px solid #b4b4b4;
+  padding-bottom: 16px;
+  font-size: 2rem;
+}
+.brandsName {
+  margin-top: 2rem;
+}
+.logo-mobile-version {
+  width: 77%;
+}

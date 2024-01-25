@@ -1,0 +1,10 @@
+.cat {
+  border-radius: 8px;
+  background: var(--White, #fff);
+  padding: 0.5rem 1.1rem;
+  width: 10rem;
+  box-shadow: -2px 2px 15px -1px rgba(113, 113, 113, 0.12);
+}
+.cat :hover {
+  cursor: pointer;
+}

@@ -1,0 +1,79 @@
+.p-container {
+  margin-top: 5.8em;
+}
+.pro-name {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.p-rate {
+  background-color: #063a88;
+  border-radius: 0.25rem;
+  min-width: 2.7rem;
+  padding: 3px 0.45rem;
+  color: #ffff;
+  position: relative;
+}
+.separator{
+  height: 100%;
+  width: 1px;
+  background-color: #717171;
+  margin: 0 10px; /* Adjust the margin as needed */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.rate-sold{
+  gap: 2rem;
+}
+.payment-container {
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  box-shadow: -2px 2px 15px -1px rgba(113, 113, 113, 0.12);
+}
+.last-price {
+  font-size: 0.9rem;
+}
+.months {
+  border-radius: 0.25rem;
+  padding: 0.45rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 3rem;
+}
+.months :hover {
+  cursor: pointer;
+}
+@media (width <= 768px) {
+  .payment-container {
+    display: none;
+  }
+}
+.select-color {
+  margin-bottom: 2rem;
+  max-width: 70%;
+  gap: 2.5rem;
+}
+.tickCircle {
+  background-color: #353535;
+  border-radius: 2rem;
+}
+.tech-heim-services {
+  justify-content: start;
+  gap: 2rem;
+}
+.services-item {
+  padding-left: 0;
+  color: var(--neutral-gray-717171, #717171);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+.sold-number {
+  color: #717171;
+  font-size: 14px;
+  font-weight: 500;
+}

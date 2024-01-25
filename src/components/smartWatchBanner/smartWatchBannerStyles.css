@@ -1,0 +1,61 @@
+.SWBanner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.mainLayer {
+  display: flex;
+  height: 17.5rem;
+  flex-shrink: 0;
+  justify-content: space-between;
+  padding-left: 8%;
+  padding-right: 13%;
+  align-items: center;
+  margin-top: 48px;
+  border-radius: 8px;
+  background: #223949 url("../../assets/Ellipse.svg") no-repeat right  ;
+
+  position: relative;
+  /* background: url(<path-to-image>), lightgray 50% / contain no-repeat, radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.00) 100%); */
+}
+.rightLayer {
+  position: inherit;
+  z-index: 1;
+}
+
+.smartWatch {
+  z-index: 2;
+}
+.smartWatch img {
+
+  width: 100%;
+  max-width: 370px;
+  flex-shrink: 0;
+}
+.SWTitleArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 165px;
+  flex-shrink: 0;
+  color: #ffff;
+}
+.SWName {
+  color: #fff;
+
+  /* Web/H1 */
+  font-family: Inter;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.slogan {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding: 16px 8px;
+}

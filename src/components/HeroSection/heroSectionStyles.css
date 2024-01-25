@@ -1,0 +1,52 @@
+.hero-container {
+  align-items: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.explore-button {
+  color: #ffff;
+  display: flex;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  background: var(--Secondary, #f45e0c);
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+}
+.explore-button:hover {
+  background: #e5590e;
+}
+
+.company-name {
+  color: var(--primary-primary-700, #042352);
+
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.company-slogan {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 2rem;
+}
+@media (width < 768px) {
+  .company-slogan {
+    color: var(--primary-primary-700, #042352);
+    /* font-family: Inter; */
+    font-size: 9px;
+  }
+  .company-name {
+    color: var(--primary-primary-700, #042352);
+    font-size: 1.5rem;
+  }
+  .explore-button {
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-size: 0.8rem;
+    border-radius: 4px;
+  }
+}

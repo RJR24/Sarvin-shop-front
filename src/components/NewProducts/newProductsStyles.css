@@ -1,0 +1,54 @@
+.newProductCard {
+  border-radius: 8px;
+  background: var(--White, #fff);
+
+  padding: 1rem;
+  min-width: 10rem;
+  box-shadow: -2px 2px 15px -1px rgba(113, 113, 113, 0.12);
+}
+.newProductCard :hover {
+  cursor: pointer;
+}
+.nPTitle {
+  border-bottom: 2px solid #b4b4b4;
+}
+.nProductsContainer {
+  margin-top: 3rem;
+}
+.titleText {
+  color: var(--Black, #0c0c0c);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.newCardContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+.newCardContainer img {
+  width: 100%;
+}
+
+.info-section {
+  display: flex;
+  height: 93px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+.nPPrice-rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-self: stretch;
+}
+.price-rate img {
+  width: 20px;
+}
+

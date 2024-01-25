@@ -1,0 +1,57 @@
+.newBestSellerCard {
+  border-radius: 8px;
+  background: var(--White, #fff);
+  padding: 1rem;
+  min-width: 10rem;
+  max-width: 19rem;
+  width: 19.1rem;
+  /* height: 22.5rem; */
+  box-shadow: -2px 2px 15px -1px rgba(113, 113, 113, 0.12);
+}
+.newBestSellerCard :hover {
+  cursor: pointer;
+}
+.bestSellerTitle {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  border-bottom: 2px solid #b4b4b4;
+  padding-bottom: 1rem;
+}
+.nBestSellersContainer {
+  margin-top: 48px;
+}
+.BSTitleText {
+  color: var(--Black, #0c0c0c);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  /* width: 100%; */
+  margin-top: 2rem;
+}
+.cardContainer img {
+  width: 11.7rem;
+  height: 10rem;
+}
+.cardInfo {
+  height: 6rem;
+  gap: 1rem;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+.price-rate {
+  align-self: stretch;
+}
+.price-rate img {
+  width: 1.4rem;
+  height: 2rem;
+}
+.rate {
+
+}

@@ -1,0 +1,49 @@
+.LR-heading {
+  width: 73.3% !important;
+  margin-top: 2.5rem;
+}
+.user-createAccount {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.75rem;
+  border-bottom: 2px solid #717171;
+}
+.user-login {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.75rem;
+  border-bottom: 2px solid #0c68f4;
+}
+.user-login , .user-createAccount:hover {
+cursor: pointer;
+}
+.tech-heim-login {
+  margin-top: 2.5rem;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #0c0c0c;
+}
+.create-account {
+  width: 73.3%;
+}
+.CA-inputs {
+  border-radius: 8px;
+  border: 1px solid #b4b4b4;
+  padding-left: 0.5rem;
+}
+.fG {
+  padding: 0.5rem 1rem;
+}
+.forgot-password {
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.logIn-signIn-with {
+  width: max-content;
+
+}
+

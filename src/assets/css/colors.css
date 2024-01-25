@@ -1,0 +1,59 @@
+:root {
+  --black: #0c0c0c;
+  --white: #fff;
+  --blue: #0c68f4;
+  --primary: #0c68f4;
+  --success: #146c43;
+  --err: #c91433;
+  --sidebar-gray: #f9f9f9;
+  --primary-primary-900: #021736;
+  --neutral-gray: #cbcbcb;
+  --neutral-gray-717171: #717171;
+  --neutral-gray-ededed: #ededed;
+  --neutral-gray-cbcbcb: #cbcbcb;
+  --Secondary: #f45e0c;
+  --primary50: #aecdfb;
+}
+
+.text-black {
+  color: var(--black);
+}
+.blue-hover-color:hover {
+  color: var(--blue) !important;
+}
+.border-blue-color {
+  color: var(--blue) !important;
+}
+.button-primary {
+  color: var(--primary);
+}
+.button-secondary {
+  color: var(--Secondary);
+}
+.success {
+  color: var(--success);
+}
+.err {
+  color: var(--err);
+}
+.sidebar-gray {
+  color: var(--sidebar-gray);
+}
+.primary-900 {
+  color: var(--success);
+}
+.neutral-gray {
+  color: var(--neutral-gray);
+}
+.neutral-gray-717171 {
+  color: var(--neutral-gray-717171);
+}
+.neutral-gray-ededed {
+  color: var(--neutral-gray-ededed);
+}
+.neutral-gray-cbcbcb {
+  color: var(--neutral-gray-cbcbcb, #cbcbcb);
+}
+.primary-50 {
+  color: var(--primary50);
+}

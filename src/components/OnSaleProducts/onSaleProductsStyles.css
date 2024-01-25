@@ -1,0 +1,36 @@
+.onSaleProduct {
+  border-radius: 4px;
+  background: var(--White, #fff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 18px;
+  /* shadow 1 */
+  /* box-shadow: -2px 2px 15px -1px rgba(113, 113, 113, 0.12); */
+width: 13rem;
+height: 16rem;
+padding: 8px;
+justify-content: center;
+align-items: center;
+gap: 0.9rem;
+flex-shrink: 0;
+}
+.onSaleProduct :hover {
+  cursor: pointer;
+}
+
+.pOnSaleContainer {
+  display :flex;
+  align-items: center;
+  justify-content: center;
+   gap: 1.8rem;
+   border-radius: 8px;
+   background: var(--primary-primary-500, #063A88);
+   height: 20rem;
+   margin-top: 3rem;
+}
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right{
+position: absolute!important;
+background-color: rebeccapurple;
+bottom: 1.5rem;
+} 

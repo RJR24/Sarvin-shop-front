@@ -1,0 +1,21 @@
+@import url("colors.css");
+
+/* header */
+.blue-hover-color:hover {
+  border-image-slice: 1;
+  border-width: 1px;
+  border-style: solid;
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  border-image-source: linear-gradient(to right, #0c69f400, #0c68f4, #0c69f400);
+}
+.border-blue-color {
+  border-image-slice: 1;
+  border-width: 1px;
+  border-style: solid;
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  border-image-source: linear-gradient(to right, #0c69f400, #0c68f4, #0c69f400);
+}
