@@ -26,7 +26,7 @@ const Header = () => {
             </Link>
             <div className="">
               <Link
-                to="/products"
+                to="/product"
                 className="nav-link text-black blue-hover-color"
               >
                 Products
