@@ -7,7 +7,7 @@ import mouse from "../../assets/images/pro02/mouse.png";
 import keyboard from "../../assets/images/pro02/keyboard.png";
 import appleWatch from "../../assets/images/pro02/appleWatch.png";
 import macBook from "../../assets/images/pro02/macBook.png";
-import arrowCircleRight from "../../assets/images/arrows-btn-etc/arrow-circle-right.svg";
+import arrowCircleRight from "../../assets/images/arrows-btn-etc/arrowRightWhite.svg";
 
 const onSaleProductsList = [
   {
@@ -62,20 +62,29 @@ const OnSaleProducts = () => {
     },
   };
   return (
-    // <>
-    //   <div>
-    //     <p>Products On Sale</p>
-    //     <p>Shop Now!</p>
-    //     <button className="btn ">
-    //       View all <img src={arrowCircleRight} alt="right arrow" />
-    //     </button>
-    // </div>
-    <Carousel  partialVisible={false} itemClass={{"padding-right": "300px!important"}} className="pOnSaleContainer" responsive={responsive}>
-      {onSaleProductsList.map((item) => (
-        <ProductOnSaleCard data={item.data} image={item.image} />
-      ))}
-    </Carousel>
-    // </>
+    <div className=" d-flex align-items-center  ">
+      <div className=" shopNow d-flex flex-column align-items-center justify-content-center w-25">
+        <div className=" fs-4 fw-bold text-light ">Products On Sale</div>
+        <p className=" text-white">Shop Now!</p>
+        <button className=" btn text-white  ">
+          View all{" "}
+          <img src={arrowCircleRight} alt="right arrow" className=" " />
+        </button>
+      </div>
+
+      <div className=" w-75 ">
+        <Carousel
+          partialVisible={false}
+          itemClass={{ "padding-right": "300px!important" }}
+          className="pOnSaleContainer"
+          responsive={responsive}
+        >
+          {onSaleProductsList.map((item) => (
+            <ProductOnSaleCard data={item.data} image={item.image} />
+          ))}
+        </Carousel>
+      </div>
+    </div>
   );
 };
 
