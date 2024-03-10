@@ -11,24 +11,6 @@ import NewProductsCard from "./NewProductsCard";
 import "./newProductsStyles.css";
 import axios from "axios";
 
-// const newProductsList = [
-//   {
-//     data: { price: 100, specification: "model and details ...", rate: 5 },
-//     image: iphone,
-//   },
-//   {
-//     data: { price: 100, specification: "model and details ...", rate: 4.8 },
-//     image: blackMagic,
-//   },
-//   {
-//     data: { price: 100, specification: "model and details...", rate: 4.9 },
-//     image: galaxyS23,
-//   },
-//   {
-//     data: { price: 100, specification: "model and details ...", rate: 4.9 },
-//     image: VR,
-//   },
-// ];
 
 const NewProducts = () => {
   const [newProductsList, setNewProductsList] = useState([])
